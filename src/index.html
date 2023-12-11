@@ -4,6 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Крестики-нолики</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="blockWho">
+        <div class="text">Ход: <span class="spanWho" id="spanWho"></span></div>
+      </div>
+
+      <div class="blockArea" id="blockArea">
+        <div class="blockItem"></div>
+        <div class="blockItem"></div>
+        <div class="blockItem"></div>
+        <div class="blockItem"></div>
+        <div class="blockItem"></div>
+        <div class="blockItem"></div>
+        <div class="blockItem"></div>
+        <div class="blockItem"></div>
+        <div class="blockItem"></div>
+      </div>
+
+      <div class="blockWin" id="blockWin">
+        <div class="textWin">
+          Победитель ㈷: <span class="spanWin" id="spanWin"></span>
+        </div>
+        <button class="btnNewGame" id="btnNewGame">Новая игра</button>
+      </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
 </html>
